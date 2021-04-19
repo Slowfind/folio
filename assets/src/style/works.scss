@@ -1,0 +1,100 @@
+.works {
+    margin: auto;
+    padding: 60px 0;
+    &__item {
+        background-color: #969696;
+        display: inline-flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30% 15px;
+        text-align: center;
+        color: $text;
+        transition: .3s ease-in-out;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        &:before {
+            content: '';
+            background-color: #393333;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            transition: .5s ease-in-out;
+            opacity: 0;
+        }
+        &:hover {
+            &:before {
+                opacity: 1;
+                z-index: 1;
+            }
+            .works {
+                &__image {
+                    opacity: 0;
+                }
+                &__text {
+                    transform: translateY(50px);
+                    @media (max-width: 1199px) and (min-width: 992px) {
+                        transform: translateY(10px);
+                    }
+                }
+                &__fade {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+            .btn {
+                transform: translateY(-50px);
+                @media (max-width: 1199px) and (min-width: 992px) {
+                        transform: translateY(-10px);
+                    }
+            }
+        }
+    }
+    &__title {
+        font-size: 26px;
+        margin-bottom: 0;
+        @media screen and (max-width: 575px) {
+            font-size: 20px;
+        }
+    }
+    &__stack {
+        font-size: 20px;
+        @media screen and (max-width: 575px) {
+            font-size: 18px;
+        }
+    }
+    &__image {
+        position: relative;
+        padding-bottom: 30%;
+        width: 100%;
+        transition: .5s ease-in-out;
+        opacity: 1;
+    }
+    &__thumb {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        object-fit: contain;
+    }
+    &__text {
+        top: 0;
+        color: #fff;
+    }
+    &__fade {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s ease-in-out;
+        z-index: 2;
+    }
+    .btn {
+        bottom: 0;
+    }
+}

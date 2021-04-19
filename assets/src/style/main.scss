@@ -1,0 +1,16 @@
+// Переопределение дефолтных значений переменных Bootstrap 4 и определение своих
+@import "../libs/custom-bootstrap/bootstrap-reboot.css";
+@import "../libs/custom-bootstrap/bootstrap-grid.css";
+// @import "../libs/fancybox/dist/jquery.fancybox.css";
+// @import "../libs/swiper/package/css/swiper";
+
+// Подключение дефолтных
+@import "default/variables";
+@import "default/global";
+@import "default/icons";
+
+// Подключение своих SCSS файлов
+@import "hero";
+@import "works";
+@import "modal";
+@import "my";

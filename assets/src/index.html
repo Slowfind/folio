@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    @@include('./head.html', { "title" : "Главная" })
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="hero" style="background-image: url('./img/hero.jpg');">
+            <div class="container">
+                <div class="hero__box col-lg-10">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="hero__text">
+                                <h1>Привет, Я Даниил.</h1>
+                                <p>Frontend-разработчик из Самары. <br>
+                                Разрабатываю сайты, адаптивно, кроссбраузерно.</p>
+                                <p>Мой путь во фронтенд начался в 2019, после армии я нашел себя в этом нелегком деле. Сейчас за плечами немало проектов, но хочется двигаться дальше уже во фреймворки. В настоящий момент активно изучаю React, считаю что будущее за за многофункциональными приложениями.</p>
+                                <a href="#works" class="btn btn--hero anchor">Мои проекты</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="hero__image">
+                                <img src="./img/me.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="works" class="works col-lg-10">
+                <div class="row no-gutters">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="works__item" style="
+                                    background-image: linear-gradient(
+                                        90deg,
+                                        #0088ac 0%,
+                                        #00a682 100%
+                                    );
+                                ">
+                            <div class="works__text works__fade">
+                                <h3 class="works__title">Альма-Парк</h3>
+                                <div class="works__stack">
+                                    HTML/SCSS - Bootstrap - jQuery
+                                </div>
+                            </div>
+                            <div class="works__image">
+                                <img class="works__thumb" src="./img/works/alma.svg" alt="Альма-Парк" />
+                            </div>
+                            <button data-id="1" class="works__fade btn btn--transparent">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="works__item" style="background-color: #d39497">
+                            <div class="works__text works__fade">
+                                <h3 class="works__title">Caketown</h3>
+                                <div class="works__stack">
+                                    React - Redux - SCSS
+                                </div>
+                            </div>
+                            <div class="works__image">
+                                <img class="works__thumb" src="./img/works/caketown.png" alt="Caketown" />
+                            </div>
+                            <button data-id="2" class="works__fade btn btn--transparent">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="works__item" style="background-color: #57128d">
+                            <div class="works__text works__fade">
+                                <h3 class="works__title">Pol360</h3>
+                                <div class="works__stack">
+                                    HTML/SCSS - Bootstrap - jQuery
+                                </div>
+                            </div>
+                            <div class="works__image">
+                                <img class="works__thumb" src="./img/works/pol360.png" alt="Пол360" />
+                            </div>
+                            <button data-id="3" class="works__fade btn btn--transparent">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="works__item" style="background-color: #fff">
+                            <div class="works__text works__fade">
+                                <h3 class="works__title">Стекко</h3>
+                                <div class="works__stack">
+                                    HTML/SCSS - Bootstrap - jQuery
+                                </div>
+                            </div>
+                            <div class="works__image">
+                                <img class="works__thumb" src="./img/works/stekko.png" alt="Стекольная компания" />
+                            </div>
+                            <button data-id="4" class="works__fade btn btn--transparent">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="works__item" style="background-color: #3d4248">
+                            <div class="works__text works__fade">
+                                <h3 class="works__title">CashPoint</h3>
+                                <div class="works__stack">
+                                    HTML/SCSS - Bootstrap - jQuery
+                                </div>
+                            </div>
+                            <div class="works__image">
+                                <img class="works__thumb" src="./img/works/cashpoint.svg" alt="CashPoint" />
+                            </div>
+                            <button data-id="5" class="works__fade btn btn--transparent">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="works__item" style="background-color: #922a7d">
+                            <div class="works__text works__fade">
+                                <h3 class="works__title">ТЦ Мята</h3>
+                                <div class="works__stack">
+                                    HTML/SCSS - Bootstrap - jQuery
+                                </div>
+                            </div>
+                            <div class="works__image">
+                                <img class="works__thumb" src="./img/works/myata.png" alt="ТЦ Мята" />
+                            </div>
+                            <button data-id="6" class="works__fade btn btn--transparent">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="works__item" style="background-color: #d29f83">
+                            <div class="works__text works__fade">
+                                <h3 class="works__title">S-Technologi</h3>
+                                <div class="works__stack">
+                                    HTML/SCSS - Bootstrap - jQuery
+                                </div>
+                            </div>
+                            <div class="works__image">
+                                <img class="works__thumb" src="./img/works/S-Technologi.svg" alt="S-Technologi" />
+                            </div>
+                            <button data-id="7" class="works__fade btn btn--transparent">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="works__item" style="background-color: #94ceea">
+                            <div class="works__text works__fade">
+                                <h3 class="works__title">Унидез500</h3>
+                                <div class="works__stack">
+                                    HTML/SCSS - Bootstrap - jQuery
+                                </div>
+                            </div>
+                            <div class="works__image">
+                                <img class="works__thumb" src="./img/works/unidez.png" alt="Унидез500" />
+                            </div>
+                            <button data-id="8" class="works__fade btn btn--transparent">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="works__item" style="background-color: #f7f9fe">
+                            <div class="works__text works__fade">
+                                <h3 class="works__title">
+                                    Адвокатское бюро «Сайгановы и партнёры»
+                                </h3>
+                                <div class="works__stack">
+                                    HTML/SCSS - Bootstrap - jQuery
+                                </div>
+                            </div>
+                            <div class="works__image">
+                                <img class="works__thumb" src="./img/works/saiganovy.svg" alt="Адвокатское бюро Сайгановы и партнеры" />
+                            </div>
+                            <button data-id="9" class="works__fade btn btn--transparent">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-overlay"></div>
+        <script src="js/main.js"></script>
+    </div>
+</body>
+
+</html>
