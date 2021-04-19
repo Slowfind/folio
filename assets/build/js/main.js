@@ -7,7 +7,7 @@
 const portfolio = [
     {
         id: 1,
-        src: '../img/moqups/alma.jpg',
+        src: './img/moqups/alma.jpg',
         alt: 'Альма-Парк',
         title: 'Альма-Парк',
         desc:
@@ -17,7 +17,7 @@ const portfolio = [
     },
     {
         id: 2,
-        src: '../img/moqups/caketown.jpg',
+        src: './img/moqups/caketown.jpg',
         alt: 'Caketown',
         title: 'Caketown',
         desc:
@@ -27,7 +27,7 @@ const portfolio = [
     },
     {
         id: 3,
-        src: '../img/moqups/pol360.jpg',
+        src: './img/moqups/pol360.jpg',
         alt: 'Pol360',
         title: 'Pol360',
         desc:
@@ -37,7 +37,7 @@ const portfolio = [
     },
     {
         id: 4,
-        src: '../img/moqups/stekko.jpg',
+        src: './img/moqups/stekko.jpg',
         alt: 'Stekko',
         title: 'Stekko',
         desc:
@@ -47,7 +47,7 @@ const portfolio = [
     },
     {
         id: 5,
-        src: '../img/moqups/cashpoint.jpg',
+        src: './img/moqups/cashpoint.jpg',
         alt: 'Cashpoint',
         title: 'Cashpoint',
         desc:
@@ -57,7 +57,7 @@ const portfolio = [
     },
     {
         id: 6,
-        src: '../img/moqups/myata.jpg',
+        src: './img/moqups/myata.jpg',
         alt: 'ТЦ Мята',
         title: 'ТЦ Мята',
         desc:
@@ -66,7 +66,7 @@ const portfolio = [
     },
     {
         id: 7,
-        src: '../img/moqups/s-tech.jpg',
+        src: './img/moqups/s-tech.jpg',
         alt: 'S-Technologi',
         title: 'S-Technologi',
         desc:
@@ -76,7 +76,7 @@ const portfolio = [
     },
     {
         id: 8,
-        src: '../img/moqups/unidez.jpg',
+        src: './img/moqups/unidez.jpg',
         alt: 'Унидез500',
         title: 'Унидез500',
         desc:
@@ -86,7 +86,7 @@ const portfolio = [
     },
     {
         id: 9,
-        src: '../img/moqups/saiganovy.jpg',
+        src: './img/moqups/saiganovy.jpg',
         alt: 'Адвокатское бюро «Сайгановы и партнёры»',
         title: 'Адвокатское бюро «Сайгановы и партнёры»',
         desc:
